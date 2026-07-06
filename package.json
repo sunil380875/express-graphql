@@ -6,9 +6,10 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "build": "tsc",
+    "abuild": "tsc",
     "start": "node dist/server.js",
     "test": "jest",
-    "schema":"tsx ./src/schema.ts"
+    "schema": "tsx ./src/schema.ts"
   },
   "keywords": [],
   "author": "",
