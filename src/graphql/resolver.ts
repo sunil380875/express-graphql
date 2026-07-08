@@ -12,5 +12,8 @@ export const resolver = {
     Mutation:{
         ...CategoryResolver.Mutation,
         ...ProductResolver.Mutation
+    },
+    Subscription: {
+        ...ProductResolver.Subscription
     }
 }

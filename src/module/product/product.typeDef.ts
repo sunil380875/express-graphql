@@ -38,4 +38,8 @@ type Mutation {
         inventory: Int!
     ): SaveProductResponse!
 }
+
+type Subscription {
+    productCreated: Product!
+}
 `
